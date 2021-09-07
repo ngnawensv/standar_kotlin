@@ -1,10 +1,14 @@
+package heritagekotlin
+
+import heritagekotlin.PersonG
+
 /**
- * PersonGFils1 est un classe fille  de la classe PersonG. Elle herite donc de la classe PersonG
+ * heritagekotlin.PersonGFils1 est un classe fille  de la classe heritagekotlin.PersonG. Elle herite donc de la classe heritagekotlin.PersonG
  *
  * Il faut utiliser le mot clé open sur la classe parent pour le rendre heritable
  *
  */
-class PersonGFils1 (nom: String, prenom: String, age: Int, var moyenne:Double):PersonG(nom,prenom,age){
+class PersonGFils1 (nom: String, prenom: String, age: Int, var moyenne:Double): PersonG(nom,prenom,age){
 
     /**
      * Les methodes ou fonctions
