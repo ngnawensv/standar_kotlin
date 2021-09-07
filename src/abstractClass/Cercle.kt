@@ -3,7 +3,7 @@ package abstractClass
 /**
  *
  */
-class Cercle():Form1() {
+class Cercle():Form() {
 
     /**
      * redefinition de la propriete abstraite. On peut le faire dans le constructeur
